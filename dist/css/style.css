@@ -1,0 +1,456 @@
+@font-face {
+    font-family: "SatoshiBlack";
+    src: url('../../font/Satoshi-Black.otf');
+}
+@font-face {
+    font-family: "SatoshiMedium";
+    src: url('../../font/Satoshi-Medium.otf');
+
+}
+@font-face {
+    font-family: "SatoshiLight";
+    src: url('../../font/Satoshi-Light.otf');
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: auto;
+    background-color: #071323;
+}
+/* #navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #0000003f;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    padding: 40px;
+    z-index: 9;
+    font-family: SatoshiMedium;
+}
+
+
+ nav a:hover{
+    color:#9DD0FF;
+ }
+
+a, a:hover, a:active, a:focus, a:visited{
+    color:#ffffff;
+    text-decoration:none;
+    font-size: 18px;
+    margin: 30px;
+}
+
+#logo img{
+    height: 68px;
+    padding: 7px;
+    display: flex;
+    justify-content: flex-start;
+   
+   
+} */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0000003f;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    padding: 40px;
+    z-index: 9;
+    font-family: SatoshiMedium;
+  
+}
+
+nav a:hover{
+    color:#9DD0FF;
+ }
+
+a, a:hover, a:active, a:focus, a:visited{
+    color:#ffffff;
+    text-decoration:none;
+    font-size: 18px;
+    margin: 30px;
+}
+.logo img{
+    height: 68px;
+    padding: 7px;
+    display: flex;
+    justify-content: flex-start;
+   
+   
+}
+#mainbanner {
+    background-image: url('../../img/bg.png');
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    position: relative;
+}
+.banner{
+    margin-top: 250px;
+    margin-left: 240px;
+}
+.banner h1{
+    font-family: SatoshiBlack;
+    font-size: 68px;
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+
+}
+.banner p{
+    font-family: SatoshiLight;
+    font-size: 20px;
+    color: #ffffffc3;
+    margin-top: 100px;
+    letter-spacing: 10px;
+    animation: typing 7s steps(18) infinite;
+    position: relative;
+    
+
+}
+
+
+.inner-header {
+    height: 65vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* .header {
+    position: relative;
+    text-align: center;
+    background: -o-linear-gradient(30deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+    background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+    color: rgb(80, 54, 139);
+} */
+#gambarbg{
+    margin-top: 230px;
+    margin-bottom: 230PX;
+    display: flex;
+    justify-content: flex-end; 
+
+}
+#komik{
+    margin-top: -900px;
+    margin-bottom: 300PX;
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 130px;
+
+}
+
+
+
+
+#about h1{
+    color: #ffffff;
+    margin-top: -290px;
+    margin-bottom: 300PX;
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 135px;
+    font-family: SatoshiBlack;
+    font-size: 30px;
+
+}
+#about h3{
+    color: #ffffff;
+    margin-top: -290px;
+    margin-bottom: 200PX;
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 275px;
+    font-size: 18px;
+    font-family: SatoshiMedium;
+
+}
+#about p{
+    color: #ffffff;
+    margin-top: -195px;
+    margin-bottom: 300PX;
+    display: flex;
+    justify-content: flex-end; 
+    margin-right: 460px;
+    font-size: 14px;
+    font-family: SatoshiLight;
+
+}
+
+#aboutManga h1{
+    color: #ffffff;
+    justify-content: flex-start;
+    margin-top: -885px;
+    margin-bottom: 50px;
+    font-size: 70px;
+    letter-spacing: 5px;
+    margin-left: 150px;
+
+}
+#aboutManga p{
+    color: #ffffff;
+    justify-content: flex-start;
+    margin-top: -30px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    margin-left: 150px;
+
+}
+#aboutManga h3{
+    color: #ffffff;
+    justify-content: flex-start;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin-left: 150px;
+    font-family: 'SatoshiLight';
+
+}
+.recomendation{
+    justify-content: flex-start;
+    margin-top: -50px;
+    margin-bottom: 200px;
+    margin-left: 150px;
+}
+.recomendation h3{
+    color: #ffffff;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    font-size: 22px;
+    letter-spacing: 5px;
+    font-family: 'SatoshiLight';
+    
+}
+
+.content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: #7857BC;
+    
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -10px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.parallax > use {
+    -webkit-animation: moveForever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+            animation: moveForever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+    -webkit-animation-delay: -2s;
+            animation-delay: -2s;
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+    -webkit-animation-delay: -3s;
+            animation-delay: -3s;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+    -webkit-animation-delay: -4s;
+            animation-delay: -4s;
+    -webkit-animation-duration: 13s;
+            animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+    -webkit-animation-delay: -5s;
+            animation-delay: -5s;
+    -webkit-animation-duration: 20s;
+            animation-duration: 20s;
+}
+/* table border {
+    margin-bottom: 400px;
+    padding-bottom: 300px;
+    color: #ffffff;
+} */
+
+@-webkit-keyframes moveForever {
+    0% {
+        -webkit-transform: translate3d(-90px, 0, 0);
+                transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(85px, 0, 0);
+                transform: translate3d(85px, 0, 0);
+    }
+}
+
+@keyframes moveForever {
+    0% {
+        -webkit-transform: translate3d(-90px, 0, 0);
+                transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(85px, 0, 0);
+                transform: translate3d(85px, 0, 0);
+    }
+}
+
+
+.polygon img{
+    width: 30px;
+    animation: polygon 7s linear infinite;
+}
+.polygon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+
+
+@keyframes polygon {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    50%{
+        
+        opacity: 3;
+    }
+    70%{
+        
+        opacity: 2;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.polygon img:nth-child(1){
+    animation-delay: 2s;
+    width: 20px;
+}
+.polygon img:nth-child(2){
+    animation-delay: 1s;
+    width: 30px;
+}
+.polygon img:nth-child(3){
+    animation-delay: 4s;
+    width: 25px;
+}
+.polygon img:nth-child(4){
+    animation-delay: 6s;
+    width: 35px;
+}
+.polygon img:nth-child(5){
+    animation-delay: 3s;
+    width: 15px;
+}
+.polygon img:nth-child(6){
+    animation-delay: 5s;
+    width: 20px;
+}
+.polygon img:nth-child(7){
+    animation-delay: 7s;
+    width: 23px;
+}
+manga{
+    color: #ffffff;
+    
+}
+
+
+footer .icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+
+}
+footer .icons img{
+    list-style: none;
+    width: 30px;
+
+}
+footer .icons  img{
+    font-size: 2em;
+    color: #ffffff;
+    margin: 0 10px;
+    display: inline;
+    transition: 0.5s;
+    
+}
+footer .icons img:hover{
+    transform: translateY(-10px);
+}
+
+footer p{
+    color: #ffffff;
+    background-color: #35215d;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+@media (max-width : 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    .content {
+        height: 30vh;
+    }
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+}
+/* @media (max-width : 44em){
+    .navbar {
+        position: fixed;
+        inset: 0 0 0 30%;
+        flex-direction: column;
+        background-color: #ffffff63;
+        padding: min(20vh 10rem) 2em;
+    }
+
+} */
+
+
+
